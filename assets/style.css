@@ -84,8 +84,16 @@ main{
 
 /* footer */
 
-footer{
-    background-color: yellow;
+#social-network{
+    display: flex;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-network i{
+    font-size: 160%;
+    color: #3a3a3a;
 }
 
 /* media query: tablets and larger (768px and up) */
