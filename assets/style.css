@@ -106,6 +106,30 @@ main{
     color: #ffffff;
 } 
 
+#reasons{
+    width: 90%;
+    margin: 20px auto 20px auto;
+}
+
+#reasons > h2{
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#benefits h3{
+    line-height: 20px;
+}
+
+#reasons hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px;
+}
+
+#reasons p{
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
 /* footer */
 
 #social-network{
@@ -115,6 +139,7 @@ main{
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-network i{
     font-size: 160%;
     color: #3a3a3a;
