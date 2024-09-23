@@ -317,7 +317,7 @@ main{
         column-gap: 0;
     }
     /* form */
-    
+
     #signup{
         background-position: center;
         position: relative;
@@ -327,6 +327,13 @@ main{
         position: absolute;
         left: 10%;
         top: 150px;
+    }
+    .text-input:hover{
+        border-color: #f16c6b;
+    }
+    .join-button:hover{
+        background-color: #fafafa;
+        color: #454b1b;
     }
 
 }
