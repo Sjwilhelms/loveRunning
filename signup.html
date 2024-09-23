@@ -36,7 +36,24 @@
     </header>
 
     <main>
-        Main Content
+        <section id="signup">
+            <form action="POST" id="signup-form">
+                <h2>LET'S GET YOU SIGNED UP <i class="fa-solid fa-heart-pulse"></i></h2>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required><br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required><br>
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address" required><br>
+                <label for="road">Road</label>
+                <input type="radio" name="running-preference" id="road" required><br>
+                <label for="trail">Trail</label>
+                <input type="radio" name="running-preference" id="trail" required><br>
+                <label for="both">Both</label>
+                <input type="radio" name="running-preference" id="both" required><br>
+                <button type="submit">Let's Run!</button>
+            </form>
+        </section>
     </main>
     <footer>
         <ul id="social-network">
