@@ -199,10 +199,30 @@ main{
 
         margin-top: 79px;
     }
+
+/* reasons */
+
+    #benefits-physical, #benefits-mental{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-physical > div, #benefits-mental > div{
+        width: 75%;
+    }
+    #benefits-mental > div{
+        text-align: right;
+        align-self: flex-end;
+    }
+
 }
 /* media query: introducing mouse hover functionality for laptops (992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    #
 }
